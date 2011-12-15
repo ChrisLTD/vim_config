@@ -47,7 +47,6 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * turn on auto indent = set autoindent
 * html encode = [x decode = ]x
 * see buffer commands = :b<tab>
-* How to use registers = http://bit.ly/qTK4yi
 * copy line into register = "<letter>yy ([More on how to use registers](http://bit.ly/qTK4yi))
 * see all registers = :reg
 * system clipboard = "* 
