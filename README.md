@@ -8,10 +8,9 @@ Mac Vim! http://code.google.com/p/macvim/
 2. Create symlinks to the configuration files using these commands:
 
 ```cd ~
-
 ln -s ~/.vim/vimrc .vimrc
-
 ln -s ~/.vim/gvimrc .gvimrc```
+
 3. Unzip Inconsolata-dz.otf.zip, and install the font
 
 ## Additional files
