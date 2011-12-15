@@ -16,7 +16,7 @@ Mac Vim! http://code.google.com/p/macvim/
 3. Unzip Inconsolata-dz.otf.zip, and install the font
 
 ## Additional files
-The html transformation commands at the bottom of the vimrc file require scripts you can find at: GITHUB LINK TO SCRIPTS HERE
+The html transformation commands at the bottom of the vimrc file require scripts you can find in [my Scripts repository](http://github.com/ChrisLTD/shell_scripts). Those scripts should be installed in your ~/Scripts/ directory.
 
 ## Thanks to...
 * David Zhou for [Inconsolata-dz](http://nodnod.net/2009/feb/12/adding-straight-single-and-double-quotes-inconsola/)
