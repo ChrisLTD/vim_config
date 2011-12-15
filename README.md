@@ -6,9 +6,9 @@ Mac Vim! http://code.google.com/p/macvim/
 ## Installation
 1. Put these files in a clean .vim directory under your ~user directory
 2. Create symlinks to the configuration files using these commands:
-		cd ~
-		ln -s ~/.vim/vimrc .vimrc
-		ln -s ~/.vim/gvimrc .gvimrc
+```cd ~
+ln -s ~/.vim/vimrc .vimrc
+ln -s ~/.vim/gvimrc .gvimrc```
 3. Unzip Inconsolata-dz.otf.zip, and install the font
 
 ## Additional files
