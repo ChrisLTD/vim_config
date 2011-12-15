@@ -26,8 +26,11 @@ set smartcase                   " ... unless they contain at least one capital l
 
 set autoindent 									" http://blogs.gnome.org/johannes/2006/11/10/getting-cool-auto-indent-in-vim/
 
-"Open current file in Chrome
-nmap <Leader>o :!open -a 'Google Chrome' '%' <cr><cr>
+"" minibufexplorer http://www.vim.org/scripts/script.php?script_id=159
+let g:miniBufExplMapCTabSwitchBufs = 1 "Use tab and shift tab to switch buffers
+
+"Open current file in Safari
+nmap <Leader>o :!open -a 'Safari' '%' <cr><cr>
 
 "Markdown to HTML http://net.tutsplus.com/tutorials/other/vim-essential-plugin-markdown-to-html/
 nmap <leader>md :%!~/Scripts/Markdown.pl --html4tags <cr><cr>

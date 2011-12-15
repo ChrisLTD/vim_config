@@ -11,12 +11,14 @@ Mac Vim! http://code.google.com/p/macvim/
 		
 		ln -s ~/.vim/vimrc .vimrc  
 		
-		ln -s ~/.vim/gvimrc .gvimrc``
+		ln -s ~/.vim/gvimrc .gvimrc
 
 3. Unzip Inconsolata-dz.otf.zip, and install the font
+4. To really let MiniBufExplorer do it's thing, set MacVim's preference to open new files in the current window "and set the arg list"
 
 ## Plugins
 1. [ctrlp](http://kien.github.com/ctrlp.vim/) – fuzzy project searching
+2. [minibufexpl](http://www.vim.org/scripts/script.php?script_id=159) – to show buffer list at the top of the screen
 
 ## Additional files
 The html transformation commands at the bottom of the vimrc file require scripts you can find in [my Scripts repository](http://github.com/ChrisLTD/shell_scripts). Those scripts should be installed in your ~/Scripts/ directory.
@@ -29,4 +31,33 @@ The html transformation commands at the bottom of the vimrc file require scripts
 
 # Keyboard Command Reference
 
-To be continued...
+* Switch buffers = <control-tab> go backwards by adding shift
+* Search current directory = <control-p> (use ".." to go up a directory)
+* Close buffer = :bd
+* Next/Prev buffer = :bn :bp
+* List buffer = :ls
+* Start new file = :e
+* Wrap line = put cursor in line, type yss then what you want to wrap... could be HTML
+* Insert new line = o or O for line before
+* Delete line = dd
+* Delete until end of line = D
+* Go to line = line# gg
+* Go to end of line = $
+* Go to beginning of line = 0
+* turn on auto indent = set autoindent
+* html encode = [x decode = ]x
+* see buffer commands = :b<tab>
+* How to use registers = http://bit.ly/qTK4yi
+* copy line into register = "<letter>yy ([More on how to use registers](http://bit.ly/qTK4yi))
+* see all registers = :reg
+* system clipboard = "* 
+* Vertical select = control+v then select your column, I to insert, d to delete, r to replace
+* Close tag = control x + /
+* Window commands = control+w s split window, control+w hjkl move windows control+w c close window
+* Open in Safari = \o
+* Convert to markdown (add p tags) = \md
+* Convert HTML to markdown = \ht
+* Educate quotes = \6
+* Convert html to entities = \7
+* Replace word = cw
+* Replace to end of line = c$

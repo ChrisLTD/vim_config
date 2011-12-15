@@ -7,3 +7,4 @@ set go+=b 								" Turn on bottom scroll bar
 "set guioptions=aAce 		 	" Turn off scroll bars
 
 set guioptions=-t				 	" Turn off toolbar
+set guioptions=e          " Turn on graphic tabs
