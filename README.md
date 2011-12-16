@@ -31,6 +31,15 @@ The html transformation commands at the bottom of the vimrc file require scripts
 
 # Keyboard Command Reference
 
+* Open in Safari = \o
+* Convert to markdown (add p tags) = \md
+* Convert HTML to markdown = \ht
+* Educate quotes = \6
+* Convert html to entities = \7
+* html encode = [x decode = ]x
+## General Vim commands
+
+* Replace word = cw
 * Switch buffers = <control-tab> go backwards by adding shift
 * Search current directory = <control-p> (use ".." to go up a directory)
 * Close buffer = :bd
@@ -44,19 +53,11 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Go to line = line# gg
 * Go to end of line = $
 * Go to beginning of line = 0
-* turn on auto indent = set autoindent
-* html encode = [x decode = ]x
+* turn off auto indent = set noautoindent
 * see buffer commands = :b<tab>
 * copy line into register = "<letter>yy ([More on how to use registers](http://bit.ly/qTK4yi))
 * see all registers = :reg
 * system clipboard = "* 
 * Vertical select = control+v then select your column, I to insert, d to delete, r to replace
-* Close tag = control x + /
 * Window commands = control+w s split window, control+w hjkl move windows control+w c close window
-* Open in Safari = \o
-* Convert to markdown (add p tags) = \md
-* Convert HTML to markdown = \ht
-* Educate quotes = \6
-* Convert html to entities = \7
-* Replace word = cw
 * Replace to end of line = c$
