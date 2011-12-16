@@ -8,9 +8,7 @@ Mac Vim! http://code.google.com/p/macvim/
 2. Create symlinks to the configuration files using these commands:  
 		
 		cd ~
-		
-		ln -s ~/.vim/vimrc .vimrc  
-		
+		ln -s ~/.vim/vimrc .vimrc  		
 		ln -s ~/.vim/gvimrc .gvimrc
 
 3. Unzip Inconsolata-dz.otf.zip, and install the font
@@ -37,6 +35,7 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Educate quotes = \6
 * Convert html to entities = \7
 * html encode = [x decode = ]x
+
 ## General Vim commands
 
 * Replace word = cw
