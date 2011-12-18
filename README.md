@@ -17,6 +17,8 @@ Mac Vim! http://code.google.com/p/macvim/
 ## Plugins
 1. [ctrlp](http://kien.github.com/ctrlp.vim/) – fuzzy project searching
 2. [minibufexpl](http://www.vim.org/scripts/script.php?script_id=159) – to show buffer list at the top of the screen
+3. [vim-surround](https://github.com/tpope/vim-surround) – wrapping text with html tags or other characters
+4. [comments](http://www.vim.org/scripts/script.php?script_id=1528) – commenting and uncommenting lines
 
 ## Additional files
 The html transformation commands at the bottom of the vimrc file require scripts you can find in [my Scripts repository](http://github.com/ChrisLTD/shell_scripts). Those scripts should be installed in your ~/Scripts/ directory.
@@ -66,3 +68,4 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Find next = n (previous = N)
 * Find and replace = %r/searchterm/replacementtext/c (% = whole file, c = confirm change)
 * Wrap line = put cursor on line, type yss then what you want to wrap (works with HTML tags)
+* Comment selection or line = <control-c> (uncomment = <control-x>)
