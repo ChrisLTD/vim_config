@@ -28,7 +28,9 @@ set autoindent 									" http://blogs.gnome.org/johannes/2006/11/10/getting-coo
 
 "" minibufexplorer http://www.vim.org/scripts/script.php?script_id=159
 let g:miniBufExplMapCTabSwitchBufs = 1 "Use tab and shift tab to switch buffers
-"let g:miniBufExplMapWindowNavVim = 1 " Use vim movement keys to switch buffers
+
+"" ctrlp http://kien.github.com/ctrlp.vim/
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*.so     " Ignore source control files in ctrlp searches
 
 "Open current file in Safari
 nmap <Leader>o :!open -a 'Safari' '%' <cr><cr>
