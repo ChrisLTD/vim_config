@@ -18,14 +18,14 @@ Mac Vim! http://code.google.com/p/macvim/
 1. [ctrlp](http://kien.github.com/ctrlp.vim/) – fuzzy project searching
 2. [minibufexpl](http://www.vim.org/scripts/script.php?script_id=159) – to show buffer list at the top of the screen
 3. [vim-surround](https://github.com/tpope/vim-surround) – wrapping text with html tags or other characters
-4. [comments](http://www.vim.org/scripts/script.php?script_id=1528) – commenting and uncommenting lines
+4. [commentary](https://github.com/tpope/vim-commentary) – commenting and uncommenting lines
 
 ## Additional files
 The html transformation commands at the bottom of the vimrc file require scripts you can find in [my Scripts repository](http://github.com/ChrisLTD/shell_scripts). Those scripts should be installed in your ~/Scripts/ directory.
 
 ## Thanks to...
 * David Zhou for [Inconsolata-dz](http://nodnod.net/2009/feb/12/adding-straight-single-and-double-quotes-inconsola/)
-* Tim Pope for [Pathogen](https://github.com/tpope/vim-pathogen) and [Surround](https://github.com/tpope/vim-surround)
+* Tim Pope for [Pathogen](https://github.com/tpope/vim-pathogen) and many other great Vim treats 
 * Jonathan Filip for the [Lucius color scheme](http://www.vim.org/scripts/script.php?script_id=2536)
 * Mislav Marohnić for his [base Vim setup](http://mislav.uniqpath.com/2011/12/vim-revisited/)
 
@@ -68,4 +68,5 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Find next = n (previous = N)
 * Find and replace = %r/searchterm/replacementtext/c (% = whole file, c = confirm change)
 * Wrap line = put cursor on line, type yss then what you want to wrap (works with HTML tags)
-* Comment selection or line = <control-c> (uncomment = <control-x>)
+* Comment selection = \\ 
+* Comment line = \\\
