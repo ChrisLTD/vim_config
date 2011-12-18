@@ -23,7 +23,7 @@ The html transformation commands at the bottom of the vimrc file require scripts
 
 ## Thanks to...
 * David Zhou for [Inconsolata-dz](http://nodnod.net/2009/feb/12/adding-straight-single-and-double-quotes-inconsola/)
-* Tim Pope for [Pathogen](https://github.com/tpope/vim-pathogen)
+* Tim Pope for [Pathogen](https://github.com/tpope/vim-pathogen) and [Surround](https://github.com/tpope/vim-surround)
 * Jonathan Filip for the [Lucius color scheme](http://www.vim.org/scripts/script.php?script_id=2536)
 * Mislav Marohnić for his [base Vim setup](http://mislav.uniqpath.com/2011/12/vim-revisited/)
 
@@ -62,3 +62,7 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Replace to end of line = c$
 * Indent line = :>>
 * Repeat last command = .
+* find = :/<text here>
+* Find next = n (previous = N)
+* Find and replace = %r/searchterm/replacementtext/c (% = whole file, c = confirm change)
+* Wrap line = put cursor on line, type yss then what you want to wrap (works with HTML tags)
