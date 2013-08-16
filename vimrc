@@ -12,6 +12,10 @@ set encoding=utf-8
 set showcmd                     " display incomplete commands
 filetype plugin indent on       " load file type plugins + indentation
 
+"" Syntax Highlighting http://beerpla.net/2008/04/02/how-to-add-a-vim-file-extension-to-syntax-highlighting/
+au BufNewFile,BufRead *.less set filetype=css
+au BufNewFile,BufRead *.scss set filetype=css
+
 "" Whitespace
 set nowrap                      " don't wrap lines
 set tabstop=2 shiftwidth=2      " a tab is two spaces (or set this to 4)
