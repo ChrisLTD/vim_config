@@ -20,6 +20,7 @@ Mac Vim! http://code.google.com/p/macvim/
 2. [minibufexpl](http://www.vim.org/scripts/script.php?script_id=159) – to show buffer list at the top of the screen
 3. [vim-surround](https://github.com/tpope/vim-surround) – wrapping text with html tags or other characters
 4. [commentary](https://github.com/tpope/vim-commentary) – commenting and uncommenting lines
+5. [EasyGrep](https://github.com/vim-scripts/EasyGrep) - project text search
 
 ## Additional files
 The html transformation commands at the bottom of the vimrc file require scripts you can find in [my Scripts repository](http://github.com/ChrisLTD/shell_scripts). Those scripts should be installed in your ~/Scripts/ directory.
@@ -73,4 +74,6 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Wrap line = put cursor on line, type yss then what you want to wrap (works with HTML tags)
 * Comment selection = \\ 
 * Comment line = \\\
-* Find in project = :vimgrep /regex/gj **/* (then use :cnext to go through results, [more info](http://vimcasts.org/episodes/search-multiple-files-with-vimgrep/))
+* Text search in project = :vimgrep /regex/gj **/* (then use :cnext to go through results, [more info](http://vimcasts.org/episodes/search-multiple-files-with-vimgrep/))
+* Better text search in project = :Grep regEx
+* Text for word under cursor = \vv
