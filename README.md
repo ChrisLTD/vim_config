@@ -13,6 +13,7 @@ Mac Vim! http://code.google.com/p/macvim/
 
 3. Unzip Inconsolata-dz.otf.zip, and install the font
 4. To really let MiniBufExplorer do it's thing, set MacVim's preference to open new files in the current window "and set the arg list"
+5. Install [Shell Scripts](https://github.com/ChrisLTD/shell_scripts).
 
 ## Plugins
 1. [ctrlp](http://kien.github.com/ctrlp.vim/) – fuzzy project searching
@@ -41,12 +42,13 @@ The html transformation commands at the bottom of the vimrc file require scripts
 ## General Vim commands
 
 * Replace word = cw
-* Switch buffers = <control-tab> go backwards by adding shift
-* Search current directory = <control-p> (use ".." to go up a directory)
+* Switch buffers = [control-tab] go backwards by adding shift
+* Search current directory = [control-p] (use ".." to go up a directory)
 * Close buffer = :bd
 * Next/Prev buffer = :bn :bp
 * List buffer = :ls
 * Start new file = :e
+* Default file browser = :E
 * Wrap line = put cursor in line, type yss then what you want to wrap... could be HTML
 * Insert new line = o or O for line before
 * Delete line = dd
@@ -55,8 +57,8 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Go to end of line = $
 * Go to beginning of line = 0
 * turn off auto indent = set noautoindent
-* see buffer commands = :b<tab>
-* copy line into register = "<letter>yy ([More on how to use registers](http://bit.ly/qTK4yi))
+* see buffer commands = :b[tab]
+* copy line into register = "[letter]yy ([More on how to use registers](http://bit.ly/qTK4yi))
 * see all registers = :reg
 * system clipboard = "* 
 * Vertical select = control+v then select your column, I to insert, d to delete, r to replace
@@ -64,7 +66,7 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Replace to end of line = c$
 * Indent line = :>>
 * Repeat last command = .
-* find = :/<text here>
+* find = :/[text here]
 * Find next = n (previous = N)
 * Find and replace = %r/searchterm/replacementtext/c (% = whole file, c = confirm change)
 * Wrap line = put cursor on line, type yss then what you want to wrap (works with HTML tags)
