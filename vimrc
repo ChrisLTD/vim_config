@@ -62,3 +62,6 @@ vmap <leader>7 :!~/Scripts/escapehtml.rb <cr>
 "Educate quotes
 nmap <leader>6 :%!~/Scripts/SmartyPants.pl \| ~/Scripts/entities2utf8.rb <cr>
 vmap <leader>6 :!~/Scripts/SmartyPants.pl \| ~/Scripts/entities2utf8.rb <cr>
+
+"Clear search highlights http://stackoverflow.com/questions/657447/vim-clear-last-search-highlighting
+"nnoremap <esc> :noh<return><esc>

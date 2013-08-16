@@ -69,6 +69,7 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * find = :/[text here]
 * Find next = n (previous = N)
 * Find and replace = %r/searchterm/replacementtext/c (% = whole file, c = confirm change)
+* Clear search highlight = :noh
 * Wrap line = put cursor on line, type yss then what you want to wrap (works with HTML tags)
 * Comment selection = \\ 
 * Comment line = \\\
