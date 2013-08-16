@@ -73,4 +73,4 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Wrap line = put cursor on line, type yss then what you want to wrap (works with HTML tags)
 * Comment selection = \\ 
 * Comment line = \\\
-* Find in project = :vimgrep /regex/gj **/* (then use :cnext to go through results)
+* Find in project = :vimgrep /regex/gj **/* (then use :cnext to go through results, [more info](http://vimcasts.org/episodes/search-multiple-files-with-vimgrep/))
