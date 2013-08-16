@@ -2,9 +2,10 @@ set guifont=Inconsolata-dz:h13
 set linespace=2
 color lucius 							"other goodies: twilight, jellybean, lucius, desertex, molokai, railscasts
 
-set go+=b 								" Turn on bottom scroll bar
+set guioptions+=e          " Turn on graphic tabs
+set guioptions+=r          " Turn on vertical scroll bar
+set guioptions+=b	         " Turn on horizontal scroll bar
+set guioptions-=T				 	 " Turn off toolbar
 
 "set guioptions=aAce 		 	" Turn off scroll bars
-
-set guioptions=-t				 	" Turn off toolbar
-set guioptions=e          " Turn on graphic tabs
+"set go+=b 								" Turn on bottom scroll bar
