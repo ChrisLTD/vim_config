@@ -12,6 +12,9 @@ set encoding=utf-8
 set showcmd                     " display incomplete commands
 filetype plugin indent on       " load file type plugins + indentation
 
+"" Put swap files in fixed directory
+set dir=~/.vim/swap
+
 "" Syntax Highlighting http://beerpla.net/2008/04/02/how-to-add-a-vim-file-extension-to-syntax-highlighting/
 au BufNewFile,BufRead *.less set filetype=css
 au BufNewFile,BufRead *.scss set filetype=css
