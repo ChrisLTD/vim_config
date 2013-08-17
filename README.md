@@ -38,6 +38,9 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Educate quotes = \6
 * Convert html to entities = \7
 * html encode = [x decode = ]x
+* Wrap line = put cursor on line, type yss then what you want to wrap (works with HTML tags)
+* Comment selection = \\ 
+* Comment line = \\\
 
 ## General Vim commands
 
@@ -47,7 +50,7 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Close buffer = :bd
 * Next/Prev buffer = :bn :bp
 * List buffer = :ls
-* Start new file = :e
+* Start new file = :e newfile.txt
 * Default file browser = :E
 * Wrap line = put cursor in line, type yss then what you want to wrap... could be HTML
 * Insert new line = o or O for line before
@@ -70,7 +73,5 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Find next = n (previous = N)
 * Find and replace = %r/searchterm/replacementtext/c (% = whole file, c = confirm change)
 * Clear search highlight = :noh
-* Wrap line = put cursor on line, type yss then what you want to wrap (works with HTML tags)
-* Comment selection = \\ 
-* Comment line = \\\
 * Text search in project = :vimgrep /regex/gj **/* (then use :cw to see a list of results, [more info](http://vimcasts.org/episodes/search-multiple-files-with-vimgrep/))
+* Word complete = [control-n]
