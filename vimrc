@@ -18,6 +18,7 @@ set dir=~/.vim/swap
 "" Syntax Highlighting http://beerpla.net/2008/04/02/how-to-add-a-vim-file-extension-to-syntax-highlighting/
 au BufNewFile,BufRead *.less set filetype=css
 au BufNewFile,BufRead *.scss set filetype=css
+au BufNewFile,BufRead *.md set filetype=markdown
 
 "" Whitespace
 set nowrap                      " don't wrap lines
