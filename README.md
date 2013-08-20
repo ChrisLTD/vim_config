@@ -47,12 +47,13 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Search for current word in project = \vv
 * Multiple cursors = [control-n] when on a word to start a cursor at the next matching word ([control-p] to go back, [control-x] to skip)
 * Live multiline cursors = Create vertical visual selection, then press [control-n]
+* Search current directory = [control-p] (use ".." to go up a directory)
 
 ## General Vim commands
 
+* Page up & page down = [control-f] & [control-b]
 * Replace word = cw
 * Switch buffers = [control-tab] go backwards by adding shift
-* Search current directory = [control-p] (use ".." to go up a directory)
 * Close buffer = :bd
 * Next/Prev buffer = :bn :bp
 * List buffer = :ls
