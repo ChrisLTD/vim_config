@@ -47,7 +47,7 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Search for current word in project = \vv
 * Multiple cursors = [control-n] when on a word to start a cursor at the next matching word ([control-p] to go back, [control-x] to skip)
 * Live multiline cursors = Create vertical visual selection, then press [control-n]
-* Search current directory = [control-p] (use ".." to go up a directory)
+* Search current directory = [control-p], select ".." to go up a directory, [F5] to refresh
 
 ## General Vim commands
 
