@@ -63,6 +63,7 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Insert new line = o or O for line before
 * Delete line = dd
 * Delete until end of line = D
+* Join next line with current line = J
 * Go to line = line# gg
 * Go to end of line = $
 * Go to beginning of line = 0
