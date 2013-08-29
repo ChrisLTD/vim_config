@@ -10,7 +10,7 @@ set nocompatible                " choose no compatibility with legacy vi
 syntax enable
 set encoding=utf-8
 set showcmd                     " display incomplete commands
-filetype plugin indent on       " load file type plugins + indentation
+filetype plugin " indent on       " load file type plugins + indentation
 
 "" Put swap files in fixed directory
 set dir=~/.vim/swap
