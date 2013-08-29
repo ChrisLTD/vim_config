@@ -25,6 +25,7 @@ set nowrap                      " don't wrap lines
 set tabstop=2 shiftwidth=2      " a tab is two spaces (or set this to 4)
 set expandtab                   " use spaces, not tabs (optional)
 set backspace=indent,eol,start  " backspace through everything in insert mode
+set autoindent 									" http://blogs.gnome.org/johannes/2006/11/10/getting-cool-auto-indent-in-vim/
 
 "" Searching
 set hlsearch                    " highlight matches
@@ -32,7 +33,6 @@ set incsearch                   " incremental searching
 set ignorecase                  " searches are case insensitive...
 set smartcase                   " ... unless they contain at least one capital letter
 
-set autoindent 									" http://blogs.gnome.org/johannes/2006/11/10/getting-cool-auto-indent-in-vim/
 
 "" minibufexplorer http://www.vim.org/scripts/script.php?script_id=159
 let g:miniBufExplMapCTabSwitchBufs = 1 "Use tab and shift tab to switch buffers
