@@ -1,6 +1,6 @@
-call pathogen#infect() 			"	load pathogen manager
+call pathogen#infect() 			    "	load pathogen manager
 
-set number 						" show line numbers
+set number 						          " show line numbers
 
 " Allow backgrounding buffers without writing them, and remember marks/undo
 " for backgrounded buffers
@@ -10,8 +10,8 @@ set nocompatible                " choose no compatibility with legacy vi
 syntax enable
 set encoding=utf-8
 set showcmd                     " display incomplete commands
-filetype plugin on 		        " load file type plugins
-set autoindent 					" http://blogs.gnome.org/johannes/2006/11/10/getting-cool-auto-indent-in-vim/
+filetype plugin on 		          " load file type plugins
+set autoindent 					        " http://blogs.gnome.org/johannes/2006/11/10/getting-cool-auto-indent-in-vim/
 
 "" Put swap files in fixed directory
 set dir=~/.vim/swap
