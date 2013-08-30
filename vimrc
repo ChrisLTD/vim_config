@@ -1,6 +1,6 @@
-call pathogen#infect() 					"	load pathogen manager
+call pathogen#infect() 			"	load pathogen manager
 
-set number 											" show line numbers
+set number 						" show line numbers
 
 " Allow backgrounding buffers without writing them, and remember marks/undo
 " for backgrounded buffers
@@ -10,7 +10,8 @@ set nocompatible                " choose no compatibility with legacy vi
 syntax enable
 set encoding=utf-8
 set showcmd                     " display incomplete commands
-filetype plugin " indent on       " load file type plugins + indentation
+filetype plugin on 		        " load file type plugins
+set autoindent 					" http://blogs.gnome.org/johannes/2006/11/10/getting-cool-auto-indent-in-vim/
 
 "" Put swap files in fixed directory
 set dir=~/.vim/swap
@@ -25,14 +26,11 @@ set nowrap                      " don't wrap lines
 set tabstop=2 shiftwidth=2      " a tab is two spaces (or set this to 4)
 set expandtab                   " use spaces, not tabs (optional)
 set backspace=indent,eol,start  " backspace through everything in insert mode
-set autoindent 									" http://blogs.gnome.org/johannes/2006/11/10/getting-cool-auto-indent-in-vim/
 
 "" Searching
 set hlsearch                    " highlight matches
 set incsearch                   " incremental searching
 set ignorecase                  " searches are case insensitive...
-set smartcase                   " ... unless they contain at least one capital letter
-
 
 "" minibufexplorer http://www.vim.org/scripts/script.php?script_id=159
 let g:miniBufExplMapCTabSwitchBufs = 1 "Use tab and shift tab to switch buffers
