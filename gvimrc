@@ -1,6 +1,6 @@
-set guifont=Consolas:h14
+set guifont=Consolas:h14   " Try Monaco if Consolas is unavailable
 set linespace=2
-color lucius               "other goodies: twilight, jellybean, lucius, desertex, molokai, railscasts
+color lucius               " other goodies: twilight, jellybean, lucius, desertex, molokai, railscasts
 
 set guioptions+=e          " Turn on graphic tabs
 set guioptions+=r          " Turn on vertical scroll bar
