@@ -1,7 +1,7 @@
 # Chris Johnson's MacVim config
 
 ## Requirements
-Mac Vim! http://code.google.com/p/macvim/
+MacVim! http://code.google.com/p/macvim/
 
 ## Installation
 1. Put these files in a clean .vim directory under your ~user directory
