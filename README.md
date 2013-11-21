@@ -83,3 +83,4 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Clear search highlight = :noh
 * Text search in project = :vimgrep /regex/gj **/* (then use :cw to see a list of results, [more info](http://vimcasts.org/episodes/search-multiple-files-with-vimgrep/))
 * Word complete = [control-n]
+* Change case = gu (lowercase), gU (uppercase)
