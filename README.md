@@ -1,4 +1,3 @@
-# Chris Johnson's MacVim config
 
 ## Requirements
 MacVim! http://code.google.com/p/macvim/
@@ -79,7 +78,7 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Repeat last command = .
 * find = :/[text here]
 * Find next = n (previous = N)
-* Find and replace = %r/searchterm/replacementtext/c (% = whole file, c = confirm change)
+* Find and replace = %s/searchterm/replacementtext/c (% = whole file, c = confirm change), [more info](http://vim.wikia.com/wiki/Search_and_replace)
 * Clear search highlight = :noh
 * Text search in project = :vimgrep /regex/gj **/* (then use :cw to see a list of results, [more info](http://vimcasts.org/episodes/search-multiple-files-with-vimgrep/))
 * Word complete = [control-n]
