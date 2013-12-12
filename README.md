@@ -1,4 +1,3 @@
-
 ## Requirements
 MacVim! http://code.google.com/p/macvim/
 
@@ -10,9 +9,8 @@ MacVim! http://code.google.com/p/macvim/
 		ln -s ~/.vim/vimrc .vimrc  		
 		ln -s ~/.vim/gvimrc .gvimrc
 
-3. Unzip Inconsolata-dz.otf.zip, and install the font
-4. To really let MiniBufExplorer do it's thing, set MacVim's preference to open new files in the current window "and set the arg list"
-5. Install [Shell Scripts](https://github.com/ChrisLTD/shell_scripts).
+3. To really let MiniBufExplorer do it's thing, set MacVim's preference to open new files in the current window "and set the arg list"
+4. Install [Shell Scripts](https://github.com/ChrisLTD/shell_scripts).
 
 ## Plugins
 1. [ctrlp](http://kien.github.com/ctrlp.vim/) – fuzzy project searching
