@@ -38,6 +38,7 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Convert html to entities = \7
 * html encode = [x decode = ]x
 * Wrap line = put cursor on line, type yss then what you want to wrap (works with HTML tags)
+* Replace surrounding character = cs[old character][new character] (example, change double to single quotes: cs"')
 * Comment selection = \\ 
 * Comment line = \\\
 * Text search in project = :Grep regexp
