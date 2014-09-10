@@ -1,6 +1,8 @@
-call pathogen#infect() 			    "	load pathogen manager
+call pathogen#infect() 		      "	load pathogen manager
 
-set number 						   	" show line numbers
+color lucius                    " other goodies: twilight, jellybean, lucius, desertex, molokai, railscasts
+
+set number 						   	      " show line numbers
 
 " Allow backgrounding buffers without writing them, and remember marks/undo
 " for backgrounded buffers
@@ -10,8 +12,8 @@ set nocompatible                " choose no compatibility with legacy vi
 syntax enable
 set encoding=utf-8
 set showcmd                     " display incomplete commands
-filetype plugin on 		        " load file type plugins
-set autoindent 					" http://blogs.gnome.org/johannes/2006/11/10/getting-cool-auto-indent-in-vim/
+filetype plugin on 		          " load file type plugins
+set autoindent 					        " http://blogs.gnome.org/johannes/2006/11/10/getting-cool-auto-indent-in-vim/
 
 "" Put swap files in fixed directory
 set dir=~/.vim/swap
@@ -38,6 +40,9 @@ let g:miniBufExplMapCTabSwitchBufs = 1 "Use tab and shift tab to switch buffers
 "" ctrlp http://kien.github.com/ctrlp.vim/
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*.so     " Ignore source control files in ctrlp searches
 
+"" vim-airline https://github.com/bling/vim-airline/
+set laststatus=2  " always on
+
 "Open current file in Safari
 nmap <Leader>o :!open -a 'Safari' '%' <cr><cr>
 
@@ -45,7 +50,7 @@ nmap <Leader>o :!open -a 'Safari' '%' <cr><cr>
 nmap <leader>md :%!~/Scripts/Markdown.pl --html4tags <cr><cr>
 vmap <leader>md :!~/Scripts/Markdown.pl --html4tags <cr><cr>
 
-"Educate quotes and turn into entities using SmartyPants perl script (chmod to 755) 
+"Educate quotes and turn into entities using SmartyPants perl script (chmod to 755)
 nmap <leader>sq :%!~/Scripts/SmartyPants.pl <cr><cr>
 vmap <leader>sq :!~/Scripts/SmartyPants.pl <cr><cr>
 
