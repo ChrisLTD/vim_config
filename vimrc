@@ -43,6 +43,10 @@ set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*.so     " Ignore source control files
 "" vim-airline https://github.com/bling/vim-airline/
 set laststatus=2  " always on
 
+"" NERD Tree https://github.com/scrooloose/nerdtree
+map <C-t> :NERDTreeToggle<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif " close vim if Nerd Tree is the last thing open
+
 "Open current file in Safari
 nmap <Leader>o :!open -a 'Safari' '%' <cr><cr>
 

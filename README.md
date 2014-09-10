@@ -3,10 +3,10 @@ MacVim! http://code.google.com/p/macvim/
 
 ## Installation
 1. Put these files in a clean .vim directory under your ~user directory
-2. Create symlinks to the configuration files using these commands:  
-		
+2. Create symlinks to the configuration files using these commands:
+
 		cd ~
-		ln -s ~/.vim/vimrc .vimrc  		
+		ln -s ~/.vim/vimrc .vimrc
 		ln -s ~/.vim/gvimrc .gvimrc
 
 3. To really let MiniBufExplorer do it's thing, set MacVim's preference to open new files in the current window "and set the arg list"
@@ -19,13 +19,17 @@ MacVim! http://code.google.com/p/macvim/
 4. [commentary](https://github.com/tpope/vim-commentary) – commenting and uncommenting lines
 5. [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors) – Sublime Text style multiple cursors
 6. [EasyGrep](https://github.com/vim-scripts/EasyGrep) – Faster easier multifile text search
+7. [vim-airline](https://github.com/bling/vim-airline) – Configurable status bar
+8. [vim-gitgutter](https://github.com/airblade/vim-gitgutter) – Show git status lines in gutter
+9. [vim-better-whitespace](https://github.com/ntpeters/vim-better-whitespace) – Show and remove whitespace at the end of lines
+10. [nerdtree](https://github.com/scrooloose/nerdtree) – File browser
 
 ## Additional files
 The html transformation commands at the bottom of the vimrc file require scripts you can find in [my Scripts repository](http://github.com/ChrisLTD/shell_scripts). Those scripts should be installed in your ~/Scripts/ directory.
 
 ## Thanks to...
 * David Zhou for [Inconsolata-dz](http://nodnod.net/2009/feb/12/adding-straight-single-and-double-quotes-inconsola/)
-* Tim Pope for [Pathogen](https://github.com/tpope/vim-pathogen) and many other great Vim treats 
+* Tim Pope for [Pathogen](https://github.com/tpope/vim-pathogen) and many other great Vim treats
 * Jonathan Filip for the [Lucius color scheme](http://www.vim.org/scripts/script.php?script_id=2536)
 * Mislav Marohnić for his [base Vim setup](http://mislav.uniqpath.com/2011/12/vim-revisited/)
 
@@ -39,13 +43,15 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * html encode = [x decode = ]x
 * Wrap line = put cursor on line, type yss then what you want to wrap (works with HTML tags)
 * Replace surrounding character = cs[old character][new character] (example, change double to single quotes: cs"')
-* Comment selection = \\ 
+* Comment selection = \\
 * Comment line = \\\
 * Text search in project = :Grep regexp
 * Search for current word in project = \vv
 * Multiple cursors = [control-n] when on a word to start a cursor at the next matching word ([control-p] to go back, [control-x] to skip)
 * Live multiline cursors = Create vertical visual selection, then press [control-n]
 * Search current directory = [control-p], select ".." to go up a directory, [F5] to refresh
+* Remove trailing whitespace = :StripWhitespace
+* Toggle NERD Tree = [control-t]
 
 ## General Vim commands
 
@@ -56,7 +62,7 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Next/Prev buffer = :bn :bp
 * List buffer = :ls
 * Start new file = :e newfile.txt
-* Default file browser = :E
+* Default file browser = :E or :Explore
 * Wrap line = put cursor in line, type yss then what you want to wrap... could be HTML
 * Insert new line = o or O for line before
 * Delete line = dd
@@ -69,7 +75,7 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * see buffer commands = :b[tab]
 * copy line into register = "[letter]yy ([More on how to use registers](http://bit.ly/qTK4yi))
 * see all registers = :reg
-* system clipboard = "* 
+* system clipboard = "*
 * Vertical select = control+v then select your column, I to insert, d to delete, r to replace
 * Window commands = control+w s split window, control+w hjkl move windows control+w c close window
 * Replace to end of line = c$
@@ -83,3 +89,4 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Word complete = [control-n]
 * Change case = gu (lowercase), gU (uppercase)
 * Recording keystrokes = q[buffer key], stop recording with q, play recording with @[buffer key]
+* Help for command = :help COMMAND
