@@ -23,6 +23,7 @@ MacVim! http://code.google.com/p/macvim/
 8. [vim-gitgutter](https://github.com/airblade/vim-gitgutter) – Show git status lines in gutter
 9. [vim-better-whitespace](https://github.com/ntpeters/vim-better-whitespace) – Show and remove whitespace at the end of lines
 10. [nerdtree](https://github.com/scrooloose/nerdtree) – File browser
+11. [vim-coffee-script](https://github.com/kchmck/vim-coffee-script) – Coffeescript syntax highlighting
 
 ## Additional files
 The html transformation commands at the bottom of the vimrc file require scripts you can find in [my Scripts repository](http://github.com/ChrisLTD/shell_scripts). Those scripts should be installed in your ~/Scripts/ directory.
