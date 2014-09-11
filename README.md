@@ -11,6 +11,7 @@ MacVim! http://code.google.com/p/macvim/
 
 3. To really let MiniBufExplorer do it's thing, set MacVim's preference to open new files in the current window "and set the arg list"
 4. Install [Shell Scripts](https://github.com/ChrisLTD/shell_scripts).
+5. Install [inconsolata-g for Powerline](https://github.com/Lokaltog/powerline-fonts/tree/master/Inconsolata-g) font (see font folder).
 
 ## Plugins
 1. [ctrlp](http://kien.github.com/ctrlp.vim/) – fuzzy project searching
