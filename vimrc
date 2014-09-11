@@ -39,7 +39,7 @@ let g:miniBufExplMapCTabSwitchBufs = 1 "Use tab and shift tab to switch buffers
 
 "" ctrlp http://kien.github.com/ctrlp.vim/
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*.so     " Ignore source control files in ctrlp searches
-let g:ctrlp_working_path_mode = 'c'                " Start searching from current directory
+"" let g:ctrlp_working_path_mode = 'c'                " Start searching from current directory
 
 "" vim-airline https://github.com/bling/vim-airline/
 set laststatus=2  " always on
