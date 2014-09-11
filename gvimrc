@@ -1,5 +1,4 @@
-set guifont=InconsolataForPowerline-g:h13   " Try Monaco or Consolas:h14 if Inconsolata unavailable
-"set guifont=Consolas:h14                  
+set guifont=Inconsolata-g_for_Powerline:h13,Consolas:h14,Monaco:h14
 set linespace=2
 
 color lucius                                " other goodies: twilight, jellybean, lucius, desertex, molokai, railscasts
