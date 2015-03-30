@@ -66,7 +66,7 @@ The html transformation commands at the bottom of the vimrc file require scripts
 ## General Vim commands
 
 * Undo = u
-* Redo = [control-R]
+* Redo = [control-r]
 * Page up & page down = [control-f] & [control-b]
 * Replace word = cw
 * Switch buffers = [control-tab] go backwards by adding shift
