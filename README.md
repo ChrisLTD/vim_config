@@ -27,7 +27,7 @@ MacVim! http://code.google.com/p/macvim/
 11. [vim-coffee-script](https://github.com/kchmck/vim-coffee-script) – Coffeescript syntax highlighting
 12. [vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax) – CSS3 & SASS syntax support
 13. [vim-less](https://github.com/genoma/vim-less) – Syntax highlighting for Less, requires [vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax)
-
+14. [vim-fugitive](https://github.com/tpope/vim-fugitive) – Git wrapper, adds current branch to Airline status bar
 
 ## Additional files
 The html transformation commands at the bottom of the vimrc file require scripts you can find in [my Scripts repository](http://github.com/ChrisLTD/shell_scripts). Those scripts should be installed in your ~/Scripts/ directory.
@@ -62,6 +62,7 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Remove trailing whitespace = :StripWhitespace
 * Toggle NERD Tree = [control-t]
 * Full buffer NERD Tree = :Explore
+* Git commands = :Gcommit, :Gstatus, :Gdiff, :Gblame
 
 ## Helpful Shell Commands
 
