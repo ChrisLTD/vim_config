@@ -62,7 +62,8 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Remove trailing whitespace = :StripWhitespace
 * Toggle NERD Tree = [control-t]
 * Full buffer NERD Tree = :Explore
-* Git commands = :Gcommit, :Gstatus, :Gdiff, :Gblame
+* Git commands, open in background temporarily = :Git [command], use % to pass in current file
+* Git commands, open in buffer = :Gcommit, :Gstatus, :Gdiff, :Gblame
 
 ## Helpful Shell Commands
 
