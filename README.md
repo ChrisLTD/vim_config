@@ -38,6 +38,10 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Jonathan Filip for the [Lucius color scheme](http://www.vim.org/scripts/script.php?script_id=2536)
 * Mislav Marohnić for his [base Vim setup](http://mislav.uniqpath.com/2011/12/vim-revisited/)
 
+## Plugins to try
+1. [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
+2. [syntastic](https://github.com/scrooloose/syntastic)
+
 # Keyboard Command Reference
 
 * Open in Safari = \o
@@ -61,6 +65,8 @@ The html transformation commands at the bottom of the vimrc file require scripts
 
 ## General Vim commands
 
+* Undo = u
+* Redo = [control-R]
 * Page up & page down = [control-f] & [control-b]
 * Replace word = cw
 * Switch buffers = [control-tab] go backwards by adding shift
@@ -95,4 +101,4 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Change case = gu (lowercase), gU (uppercase)
 * Recording keystrokes = q[buffer key], stop recording with q, play recording with @[buffer key]
 * Help for command = :help COMMAND
-* List of commands = :command (optional command)
+* List of commands = :command [optional command] (use for when you have command conflicts)
