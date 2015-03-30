@@ -63,6 +63,11 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Toggle NERD Tree = [control-t]
 * Full buffer NERD Tree = :Explore
 
+## Helpful Shell Commands
+
+* Put Vim in the background = [control-z]
+* Return Vim to the foreground = fg
+
 ## General Vim commands
 
 * Undo = u
@@ -102,3 +107,4 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Recording keystrokes = q[buffer key], stop recording with q, play recording with @[buffer key]
 * Help for command = :help COMMAND
 * List of commands = :command [optional command] (use for when you have command conflicts)
+* Run shell command from Vim = :![shell command]
