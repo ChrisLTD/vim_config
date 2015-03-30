@@ -25,6 +25,9 @@ MacVim! http://code.google.com/p/macvim/
 9. [vim-better-whitespace](https://github.com/ntpeters/vim-better-whitespace) – Show and remove whitespace at the end of lines
 10. [nerdtree](https://github.com/scrooloose/nerdtree) – File browser
 11. [vim-coffee-script](https://github.com/kchmck/vim-coffee-script) – Coffeescript syntax highlighting
+12. [vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax) – CSS3 & SASS syntax support
+13. [vim-less](https://github.com/genoma/vim-less) – Syntax highlighting for Less, requires [vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax)
+
 
 ## Additional files
 The html transformation commands at the bottom of the vimrc file require scripts you can find in [my Scripts repository](http://github.com/ChrisLTD/shell_scripts). Those scripts should be installed in your ~/Scripts/ directory.
@@ -54,6 +57,7 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Search current directory = [control-p], select ".." to go up a directory, [F5] to refresh
 * Remove trailing whitespace = :StripWhitespace
 * Toggle NERD Tree = [control-t]
+* Full buffer NERD Tree = :Explore
 
 ## General Vim commands
 
@@ -64,7 +68,6 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Next/Prev buffer = :bn :bp
 * List buffer = :ls
 * Start new file = :e newfile.txt
-* Default file browser = :E or :Explore
 * Wrap line = put cursor in line, type yss then what you want to wrap... could be HTML
 * Insert new line = o or O for line before
 * Delete line = dd
@@ -92,3 +95,4 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Change case = gu (lowercase), gU (uppercase)
 * Recording keystrokes = q[buffer key], stop recording with q, play recording with @[buffer key]
 * Help for command = :help COMMAND
+* List of commands = :command (optional command)
