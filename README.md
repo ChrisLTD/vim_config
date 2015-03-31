@@ -113,3 +113,4 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Help for command = :help COMMAND
 * List of commands = :command [optional command] (use for when you have command conflicts)
 * Run shell command from Vim = :![shell command]
+* Close quickfix window = :ccl
