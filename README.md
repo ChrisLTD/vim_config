@@ -41,6 +41,7 @@ The html transformation commands at the bottom of the vimrc file require scripts
 ## Plugins to try
 1. [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
 2. [syntastic](https://github.com/scrooloose/syntastic)
+3. [ack.vim](https://github.com/mileszs/ack.vim) – Replacement for EasyGrep
 
 # Keyboard Command Reference
 
@@ -55,6 +56,7 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Comment selection = \\
 * Comment line = \\\
 * Text search in project = :Grep regexp
+* Change search options: :GrepOptions
 * Search for current word in project = \vv
 * Multiple cursors = [control-n] when on a word to start a cursor at the next matching word ([control-p] to go back, [control-x] to skip)
 * Live multiline cursors = Create vertical visual selection, then press [control-n]
