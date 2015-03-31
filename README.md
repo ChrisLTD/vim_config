@@ -69,6 +69,7 @@ The html transformation commands at the bottom of the vimrc file require scripts
 
 * Put Vim in the background = [control-z]
 * Return Vim to the foreground = fg
+* Open MacVim inside the terminal = mvim -v
 
 ## General Vim commands
 
