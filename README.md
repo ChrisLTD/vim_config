@@ -98,7 +98,7 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * see all registers = :reg
 * system clipboard = "*
 * Vertical select = control+v then select your column, I to insert, d to delete, r to replace
-* Window commands = control+w s split window, control+w hjkl move windows control+w c close window
+* Window commands = control+w s split window, control+w hjkl move windows control+w c close window, control+q to quit a window
 * Replace to end of line = c$
 * Indent line = :>>
 * Repeat last command = .
