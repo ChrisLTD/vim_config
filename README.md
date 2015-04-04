@@ -107,7 +107,7 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Find and replace = %s/searchterm/replacementtext/c (% = whole file, c = confirm change), [more info](http://vim.wikia.com/wiki/Search_and_replace)
 * Clear search highlight = :noh
 * Text search in project = :vimgrep /regex/gj **/* (then use :cw to see a list of results, [more info](http://vimcasts.org/episodes/search-multiple-files-with-vimgrep/))
-* Word complete = [control-n]
+* Word complete = [control-n] || [control-p] in Insert mode
 * Change case = gu (lowercase), gU (uppercase)
 * Recording keystrokes = q[buffer key], stop recording with q, play recording with @[buffer key]
 * Help for command = :help COMMAND
