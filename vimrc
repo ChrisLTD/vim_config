@@ -1,6 +1,6 @@
 call pathogen#infect() 		      "	load pathogen manager
 
-color lucius                    " other goodies: twilight, jellybean, lucius, desertex, molokai, railscasts
+color Tomorrow-Night            " other goodies: twilight, jellybean, lucius, desertex, molokai, railscasts, Tomorrow-Night
 
 set number 						   	      " show line numbers
 
