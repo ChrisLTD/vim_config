@@ -114,3 +114,4 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * List of commands = :command [optional command] (use for when you have command conflicts)
 * Run shell command from Vim = :![shell command]
 * Close quickfix window = :ccl
+* Enable word wrap = :set wrap (nowrap to disable)
