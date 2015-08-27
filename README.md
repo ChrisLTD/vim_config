@@ -75,6 +75,7 @@ The html transformation commands at the bottom of the vimrc file require scripts
 
 ## General Vim commands
 
+* Escape insert mode = Esc or [control-]]
 * Undo = u
 * Redo = [control-r]
 * Page up & page down = [control-f] & [control-b]
