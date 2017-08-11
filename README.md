@@ -58,6 +58,7 @@ The html transformation commands at the bottom of the vimrc file require scripts
 * Text search in project = :Grep regexp
 * Change search options: :GrepOptions
 * Search for current word in project = \vv
+* Vertical selection = [control-v]
 * Multiple cursors = [control-n] when on a word to start a cursor at the next matching word ([control-p] to go back, [control-x] to skip)
 * Live multiline cursors = Create vertical visual selection, then press [control-n]
 * Search current directory = [control-p], select ".." to go up a directory, [F5] to refresh
