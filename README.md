@@ -1,5 +1,5 @@
 ## Requirements
-MacVim! http://code.google.com/p/macvim/
+MacVim! https://github.com/macvim-dev/macvim
 
 ## Installation
 1. Put these files in a clean .vim directory under your ~user directory
