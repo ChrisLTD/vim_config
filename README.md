@@ -1,5 +1,5 @@
 ## Requirements
-MacVim! https://github.com/macvim-dev/macvim
+Recent version of (Vim)[https://github.com/vim/vim]. Homebrew formula (here)[https://formulae.brew.sh/formula/vim].
 
 ## Installation
 1. Put these files in a clean .vim directory under your ~user directory
@@ -7,11 +7,9 @@ MacVim! https://github.com/macvim-dev/macvim
 
 		cd ~
 		ln -s ~/.vim/vimrc .vimrc
-		ln -s ~/.vim/gvimrc .gvimrc
 
 3. To really let MiniBufExplorer do it's thing, set MacVim's preference to open new files in the current window "and set the arg list"
-4. Install [Shell Scripts](https://github.com/ChrisLTD/shell_scripts).
-5. Install [inconsolata-g for Powerline](https://github.com/Lokaltog/powerline-fonts/tree/master/Inconsolata-g) font (see font folder).
+4. (Optional) Install [Shell Scripts](https://github.com/ChrisLTD/shell_scripts).
 
 ## Plugins
 1. [ctrlp](http://kien.github.com/ctrlp.vim/) – fuzzy project searching
@@ -33,7 +31,6 @@ MacVim! https://github.com/macvim-dev/macvim
 The html transformation commands at the bottom of the vimrc file require scripts you can find in [my Scripts repository](http://github.com/ChrisLTD/shell_scripts). Those scripts should be installed in your ~/Scripts/ directory.
 
 ## Thanks to...
-* David Zhou for [Inconsolata-dz](http://nodnod.net/2009/feb/12/adding-straight-single-and-double-quotes-inconsola/)
 * Tim Pope for [Pathogen](https://github.com/tpope/vim-pathogen) and many other great Vim treats
 * Jonathan Filip for the [Lucius color scheme](http://www.vim.org/scripts/script.php?script_id=2536)
 * Mislav Marohnić for his [base Vim setup](http://mislav.uniqpath.com/2011/12/vim-revisited/)
