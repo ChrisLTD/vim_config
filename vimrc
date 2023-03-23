@@ -41,7 +41,7 @@ set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*.so     " Ignore source control files
 
 "" vim-airline https://github.com/bling/vim-airline/
 set laststatus=2                      " always on
-let g:airline_powerline_fonts = 1     " use powerline fonts
+let g:airline_powerline_fonts = 0     " use powerline fonts
 
 "" NERD Tree https://github.com/scrooloose/nerdtree
 map <C-t> :NERDTreeToggle<CR>
