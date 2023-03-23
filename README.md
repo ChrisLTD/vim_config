@@ -1,5 +1,5 @@
 ## Requirements
-Recent version of (Vim)[https://github.com/vim/vim] (Requires greater than 8.2 for [automatic plugin loading](https://vimhelp.org/repeat.txt.html#packages)). 
+Recent version of (Vim)[https://github.com/vim/vim] (Requires greater than 8.2 for [automatic plugin loading](https://vimhelp.org/repeat.txt.html#packages)).
 Homebrew formula for Vim (here)[https://f rmulae.brew.sh/formula/vim].
 
 ## Installation
@@ -12,30 +12,42 @@ Homebrew formula for Vim (here)[https://f rmulae.brew.sh/formula/vim].
 3. (Optional) Install [Shell Scripts](https://github.com/ChrisLTD/shell_scripts).
 
 ## Plugins
-1. [ctrlp](http://kien.github.com/ctrlp.vim/) – fuzzy project searching
-2. [minibufexpl](http://www.vim.org/scripts/script.php?script_id=159) – to show buffer list at the top of the screen
-3. [vim-surround](https://github.com/tpope/vim-surround) – wrapping text with html tags or other characters
-4. [commentary](https://github.com/tpope/vim-commentary) – commenting and uncommenting lines
-5. [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors) – Sublime Text style multiple cursors
-6. [EasyGrep](https://github.com/vim-scripts/EasyGrep) – Faster easier multifile text search
-7. [vim-airline](https://github.com/bling/vim-airline) – Configurable status bar
-8. [vim-gitgutter](https://github.com/airblade/vim-gitgutter) – Show git status lines in gutter
-9. [vim-better-whitespace](https://github.com/ntpeters/vim-better-whitespace) – Show and remove whitespace at the end of lines
-10. [nerdtree](https://github.com/scrooloose/nerdtree) – File browser
-12. [vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax) – CSS3 & SASS syntax support
-14. [vim-fugitive](https://github.com/tpope/vim-fugitive) – Git wrapper, adds current branch to Airline status bar
+* [ctrlp](https://github.com/kien/ctrlp.vim) – fuzzy project searching
+* [vim-surround](https://github.com/tpope/vim-surround) – wrapping text with html tags or other characters
+* [commentary](https://github.com/tpope/vim-commentary) – commenting and uncommenting lines
+* [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors) – Sublime Text style multiple cursors
+* [EasyGrep](https://github.com/vim-scripts/EasyGrep) – Faster easier multifile text search
+* [vim-airline](https://github.com/bling/vim-airline) – Configurable status bar, and buffer tab line at the top
+* [vim-gitgutter](https://github.com/airblade/vim-gitgutter) – Show git status lines in gutter
+* [vim-better-whitespace](https://github.com/ntpeters/vim-better-whitespace) – Show and remove whitespace at the end of lines
+* [nerdtree](https://github.com/scrooloose/nerdtree) – File browser
+* [vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax) – CSS3 & SASS syntax support
+* [vim-fugitive](https://github.com/tpope/vim-fugitive) – Git wrapper, adds current branch to Airline status bar
+* [vim-javascript](https://github.com/pangloss/vim-javascript) – JavaScript syntax support
+* [typescript-vim](https://github.com/leafgarland/typescript-vim) – TypeScript syntax support
+* [vim-jsx-typescript](https://github.com/peitalin/vim-jsx-typescript) – JSX in JS and TS support
+
 
 ## Additional files
 The html transformation commands at the bottom of the vimrc file require scripts you can find in [my Scripts repository](http://github.com/ChrisLTD/shell_scripts). Those scripts should be installed in your ~/Scripts/ directory.
 
 ## Thanks to...
 * Jonathan Filip for the [Lucius color scheme](http://www.vim.org/scripts/script.php?script_id=2536)
-* Mislav Marohnić for his [base Vim setup](http://mislav.uniqpath.com/2011/12/vim-revisited/)
 
 ## Plugins to try
-1. [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
-2. [syntastic](https://github.com/scrooloose/syntastic)
-3. [ack.vim](https://github.com/mileszs/ack.vim) – Replacement for EasyGrep
+* [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
+* [syntastic](https://github.com/scrooloose/syntastic)
+* [ack.vim](https://github.com/mileszs/ack.vim) – Replacement for EasyGrep
+* [tsuquyomi](https://github.com/Quramy/tsuquyomi) – TypeScript auto complete
+* [vim-js-indent](https://github.com/jason0x43/vim-js-indent) – better JS and TS indentation
+* [vim-graphql](https://github.com/jparise/vim-graphql) – syntax support for GraphQL
+* [vim-styled-components](https://github.com/styled-components/vim-styled-components) – support for styled components
+* [coc](https://github.com/neoclide/coc.nvim) – code completion. Also [prettier](https://github.com/neoclide/coc-prettier) and [eslint](https://github.com/neoclide/coc-eslint) support plugins.
+
+## Sources
+* [https://pragmaticpineapple.com/ultimate-vim-typescript-setup/](https://pragmaticpineapple.com/ultimate-vim-typescript-setup/)
+* [Modern TypeScript and React Development in Vim](https://thoughtbot.com/blog/modern-typescript-and-react-development-in-vim)
+* [My Neovim setup for React, TypeScript, Tailwind CSS, etc](https://blog.inkdrop.app/my-neovim-setup-for-react-typescript-tailwind-css-etc-in-2022-a7405862c9a4)
 
 # Keyboard Command Reference
 

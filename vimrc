@@ -30,16 +30,14 @@ set hlsearch                    " highlight matches
 set incsearch                   " incremental searching
 set ignorecase                  " searches are case insensitive...
 
-"" minibufexplorer http://www.vim.org/scripts/script.php?script_id=159
-let g:miniBufExplMapCTabSwitchBufs = 1 "Use tab and shift tab to switch buffers
-
-"" ctrlp http://kien.github.com/ctrlp.vim/
-set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*.so     " Ignore source control files in ctrlp searches
+"" ctrlp https://github.com/kien/ctrlp.vim
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*.so     	  " Ignore source control files in ctrlp searches
 "" let g:ctrlp_working_path_mode = 'c'                " Start searching from current directory
 
 "" vim-airline https://github.com/bling/vim-airline/
-set laststatus=2                      " always on
-let g:airline_powerline_fonts = 0     " use powerline fonts
+set laststatus=2                      			" always on
+let g:airline_powerline_fonts = 0     			" use powerline fonts
+let g:airline#extensions#tabline#enabled = 1 	" show buffer tab bar
 
 "" NERD Tree https://github.com/scrooloose/nerdtree
 map <C-t> :NERDTreeToggle<CR>
