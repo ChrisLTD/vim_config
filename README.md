@@ -1,5 +1,6 @@
 ## Requirements
-Recent version of (Vim)[https://github.com/vim/vim]. Homebrew formula (here)[https://formulae.brew.sh/formula/vim].
+Recent version of (Vim)[https://github.com/vim/vim] (Requires greater than 8.2 for [automatic plugin loading](https://vimhelp.org/repeat.txt.html#packages)). 
+Homebrew formula for Vim (here)[https://f rmulae.brew.sh/formula/vim].
 
 ## Installation
 1. Put these files in a clean .vim directory under your ~user directory
@@ -8,9 +9,7 @@ Recent version of (Vim)[https://github.com/vim/vim]. Homebrew formula (here)[htt
 		cd ~
 		ln -s ~/.vim/vimrc .vimrc
 
-3. To really let MiniBufExplorer do it's thing, set MacVim's preference to open new files in the current window "and set the arg list"
-4. Install [inconsolata-g for Powerline](https://github.com/Lokaltog/powerline-fonts/tree/master/Inconsolata-g) font (see font folder).
-5. (Optional) Install [Shell Scripts](https://github.com/ChrisLTD/shell_scripts).
+3. (Optional) Install [Shell Scripts](https://github.com/ChrisLTD/shell_scripts).
 
 ## Plugins
 1. [ctrlp](http://kien.github.com/ctrlp.vim/) – fuzzy project searching
@@ -23,19 +22,15 @@ Recent version of (Vim)[https://github.com/vim/vim]. Homebrew formula (here)[htt
 8. [vim-gitgutter](https://github.com/airblade/vim-gitgutter) – Show git status lines in gutter
 9. [vim-better-whitespace](https://github.com/ntpeters/vim-better-whitespace) – Show and remove whitespace at the end of lines
 10. [nerdtree](https://github.com/scrooloose/nerdtree) – File browser
-11. [vim-coffee-script](https://github.com/kchmck/vim-coffee-script) – Coffeescript syntax highlighting
 12. [vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax) – CSS3 & SASS syntax support
-13. [vim-less](https://github.com/genoma/vim-less) – Syntax highlighting for Less, requires [vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax)
 14. [vim-fugitive](https://github.com/tpope/vim-fugitive) – Git wrapper, adds current branch to Airline status bar
 
 ## Additional files
 The html transformation commands at the bottom of the vimrc file require scripts you can find in [my Scripts repository](http://github.com/ChrisLTD/shell_scripts). Those scripts should be installed in your ~/Scripts/ directory.
 
 ## Thanks to...
-* Tim Pope for [Pathogen](https://github.com/tpope/vim-pathogen) and many other great Vim treats
 * Jonathan Filip for the [Lucius color scheme](http://www.vim.org/scripts/script.php?script_id=2536)
 * Mislav Marohnić for his [base Vim setup](http://mislav.uniqpath.com/2011/12/vim-revisited/)
-* David Zhou for [Inconsolata-dz](http://nodnod.net/2009/feb/12/adding-straight-single-and-double-quotes-inconsola/)
 
 ## Plugins to try
 1. [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
