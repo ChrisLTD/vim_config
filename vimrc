@@ -1,4 +1,6 @@
-color Tomorrow-Night            " other goodies: twilight, jellybean, lucius, desertex, molokai, railscasts, Tomorrow-Night
+" find other vim color schemes https://vimcolorschemes.com
+color gruvbox
+set background=dark
 
 set number 						   	      " show line numbers
 
@@ -38,6 +40,7 @@ set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*.so     	  " Ignore source control fi
 set laststatus=2                      			" always on
 let g:airline_powerline_fonts = 0     			" use powerline fonts
 let g:airline#extensions#tabline#enabled = 1 	" show buffer tab bar
+let airline_theme='tomorrow'
 
 "" NERD Tree https://github.com/scrooloose/nerdtree
 map <C-t> :NERDTreeToggle<CR>
