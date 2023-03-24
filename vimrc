@@ -16,8 +16,8 @@ set showcmd                     " display incomplete commands
 filetype plugin on 		          " load file type plugins
 set autoindent 					        " http://blogs.gnome.org/johannes/2006/11/10/getting-cool-auto-indent-in-vim/
 
-"" Put swap files in fixed directory
-set dir=~/.vim/swap
+set noswapfile                      " disable swap files
+" Put swap files in fixed directory " set dir=~/.vim/swap
 
 "" Syntax Highlighting http://beerpla.net/2008/04/02/how-to-add-a-vim-file-extension-to-syntax-highlighting/
 au BufNewFile,BufRead *.md set filetype=markdown
@@ -41,6 +41,8 @@ set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*.so     	  " Ignore source control fi
 set laststatus=2                      			" always on
 let g:airline_powerline_fonts = 0     			" use powerline fonts
 let g:airline#extensions#tabline#enabled = 1 	" show buffer tab bar
+let g:airline_left_sep = ''
+let g:airline_right_sep = ''
 
 "" NERD Tree https://github.com/scrooloose/nerdtree
 map <C-t> :NERDTreeToggle<CR>
