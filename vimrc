@@ -9,6 +9,7 @@ set number 						   	      " show line numbers
 " for backgrounded buffers
 set hidden
 
+set mouse=a                     " enable mouse support
 set nocompatible                " choose no compatibility with legacy vi
 syntax enable
 set encoding=utf-8
@@ -50,30 +51,6 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 
 "Open current file in Safari
 nmap <Leader>o :!open -a 'Safari' '%' <cr><cr>
-
-"Markdown to HTML http://net.tutsplus.com/tutorials/other/vim-essential-plugin-markdown-to-html/
-nmap <leader>md :%!~/Scripts/Markdown.pl --html4tags <cr><cr>
-vmap <leader>md :!~/Scripts/Markdown.pl --html4tags <cr><cr>
-
-"Educate quotes and turn into entities using SmartyPants perl script (chmod to 755)
-nmap <leader>sq :%!~/Scripts/SmartyPants.pl <cr><cr>
-vmap <leader>sq :!~/Scripts/SmartyPants.pl <cr><cr>
-
-"Convert HTML into Markdown http://www.aaronsw.com/2002/html2text/ (chmod to 755)
-nmap <leader>ht :%!~/Scripts/html2text.py <cr><cr>
-vmap <leader>ht :!~/Scripts/html2text.py <cr><cr>
-
-"Convert HTML entities back to UTF-8
-nmap <leader>et :%!~/Scripts/entities2utf8.rb <cr>
-vmap <leader>et :!~/Scripts/entities2utf8.rb <cr>
-
-"Escape characters for HTML
-nmap <leader>7 :%!~/Scripts/escapehtml.rb <cr>
-vmap <leader>7 :!~/Scripts/escapehtml.rb <cr>
-
-"Educate quotes
-nmap <leader>6 :%!~/Scripts/SmartyPants.pl \| ~/Scripts/entities2utf8.rb <cr>
-vmap <leader>6 :!~/Scripts/SmartyPants.pl \| ~/Scripts/entities2utf8.rb <cr>
 
 "Clear search highlights http://stackoverflow.com/questions/657447/vim-clear-last-search-highlighting
 "nnoremap <esc> :noh<return><esc>
