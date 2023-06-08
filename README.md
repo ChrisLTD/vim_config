@@ -1,6 +1,6 @@
 ## Requirements
-Recent version of (Vim)[https://github.com/vim/vim] (Requires greater than 8.2 for [automatic plugin loading](https://vimhelp.org/repeat.txt.html#packages)).
-Homebrew formula for Vim (here)[https://f rmulae.brew.sh/formula/vim].
+Recent version of [Vim](https://github.com/vim/vim) (Requires greater than 8.2 for [automatic plugin loading](https://vimhelp.org/repeat.txt.html#packages)).
+Homebrew formula for Vim [here](https://formulae.brew.sh/formula/vim).
 
 ## Installation
 1. Put these files in a clean .vim directory under your ~user directory
