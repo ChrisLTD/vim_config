@@ -1,6 +1,6 @@
 ## Requirements
-Recent version of (Vim)[https://github.com/vim/vim] (Requires greater than 8.2 for [automatic plugin loading](https://vimhelp.org/repeat.txt.html#packages)).
-Homebrew formula for Vim (here)[https://f rmulae.brew.sh/formula/vim].
+Recent version of [Vim](https://github.com/vim/vim) (Requires greater than 8.2 for [automatic plugin loading](https://vimhelp.org/repeat.txt.html#packages)).
+Homebrew formula for Vim [here](https://formulae.brew.sh/formula/vim).
 
 ## Installation
 1. Put these files in a clean .vim directory under your ~user directory
@@ -8,8 +8,6 @@ Homebrew formula for Vim (here)[https://f rmulae.brew.sh/formula/vim].
 
 		cd ~
 		ln -s ~/.vim/vimrc .vimrc
-
-3. (Optional) Install [Shell Scripts](https://github.com/ChrisLTD/shell_scripts).
 
 ## Plugins
 * [ctrlp](https://github.com/kien/ctrlp.vim) – fuzzy project searching
@@ -52,11 +50,6 @@ The html transformation commands at the bottom of the vimrc file require scripts
 # Keyboard Command Reference
 
 * Open in Safari = \o
-* Convert to markdown (add p tags) = \md
-* Convert HTML to markdown = \ht
-* Educate quotes = \6
-* Convert html to entities = \7
-* html encode = [x decode = ]x
 * Wrap line = put cursor on line, type yss then what you want to wrap (works with HTML tags)
 * Replace surrounding character = cs[old character][new character] (example, change double to single quotes: cs"')
 * Comment selection = \\
@@ -79,7 +72,6 @@ The html transformation commands at the bottom of the vimrc file require scripts
 
 * Put Vim in the background = [control-z]
 * Return Vim to the foreground = fg
-* Open MacVim inside the terminal = mvim -v
 
 ## General Vim commands
 
