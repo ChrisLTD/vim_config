@@ -3,7 +3,8 @@ color gruvbox
 set background=dark
 let g:airline_theme='tomorrow'
 
-set number 						   	      " show line numbers
+" set number 						   	      " show line numbers
+set number relativenumber       " show hybrid relative numbers https://jeffkreeftmeijer.com/vim-number/
 
 " Allow backgrounding buffers without writing them, and remember marks/undo
 " for backgrounded buffers
